@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/telegram-clone/static/css/main.a611e673.css",
-    "main.js": "/telegram-clone/static/js/main.c0181434.js",
+    "main.js": "/telegram-clone/static/js/main.3f13d087.js",
     "index.html": "/telegram-clone/index.html",
     "main.a611e673.css.map": "/telegram-clone/static/css/main.a611e673.css.map",
-    "main.c0181434.js.map": "/telegram-clone/static/js/main.c0181434.js.map"
+    "main.3f13d087.js.map": "/telegram-clone/static/js/main.3f13d087.js.map"
   },
   "entrypoints": [
     "static/css/main.a611e673.css",
-    "static/js/main.c0181434.js"
+    "static/js/main.3f13d087.js"
   ]
 }
