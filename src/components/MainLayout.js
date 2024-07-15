@@ -57,7 +57,7 @@ const MainLayout = () => {
     <div>
       <Profile />
       <List>
-        <ListItem button component={Link} to="/">
+        <ListItem button component={Link} to="/telegram-clone/">
           <ListItemText primary="Chats" />
         </ListItem>
         <ListItem button component={Link} to="/calls">
