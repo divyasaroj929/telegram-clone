@@ -102,7 +102,7 @@ const MainLayout = () => {
             textColor="inherit"
             variant="fullWidth"
           >
-            <Tab label="Chats" component={Link} to="/" />
+            <Tab label="Chats" component={Link} to="/telegram-clone/" />
             <Tab label="Calls" component={Link} to="/calls" />
             <Tab label="Groups" />
             <Tab label="Settings" />
@@ -117,7 +117,7 @@ const MainLayout = () => {
             open={mobileOpen}
             onClose={handleDrawerToggle}
             ModalProps={{
-              keepMounted: true, // Better open performance on mobile.
+              keepMounted: true,
             }}
             sx={{
               display: { xs: "block", sm: "none" },
@@ -156,7 +156,11 @@ const MainLayout = () => {
         >
           <Toolbar />
           <Routes>
-            <Route exact path="/" element={<ChatSection chats={chats} />} />
+            <Route
+              exact
+              path="/telegram-clone/"
+              element={<ChatSection chats={chats} />}
+            />
             <Route path="/messages/:chatId" element={<ChatMessages />} />
             <Route path="/calls" element={<CallSection />} />
           </Routes>
